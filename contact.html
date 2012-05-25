@@ -1,0 +1,190 @@
+<html>
+<head>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+  $(".like_me").click(function(){
+  
+  $(".pop_out").slideToggle(1000);
+  /*$(this).css({"-webkit-transform":"rotate(180deg)"});*/
+  
+  });
+});
+</script>
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<title>Contact | Varun B Patil</title>
+<style type="text/css">@import url(index.css);</style>
+</head>
+<body>
+
+<!--header-->
+<div id="header">
+<a href="index.php"><img class="header_content_img" src="logo-490900.png" width="110px" height="100px" /></a>
+<h1 class="header_content"><a class="header_content" href="index.php">Varun B Patil</a></h1>
+<i class="header_content">Tough times don't last, but tough people do.</i>
+
+
+<br /><br /><br /><br /><br /><br /><br />
+
+<!--main menu-->
+<table id="main_menu">
+<tr>
+	<td class="main_menu" onmouseover="this.className='mover';" onmouseout="this.className='mout';"><a class="main_menu" href="index.php">Home</a></td>
+	<td class="main_menu" onmouseover="this.className='mover';" onmouseout="this.className='mout';"><a class="main_menu" href="portfolio.html">Portfolio</a></td>
+	<td class="main_menu" onmouseover="this.className='mover';" onmouseout="this.className='mout';"><a class="main_menu" href="learn.html">Learn</a></td>
+	<td class="main_menu" onmouseover="this.className='mover';" onmouseout="this.className='mout';"><a class="main_menu" href="links.php">Fav Sites</a></td>
+	<td class="main_menu" onmouseover="this.className='mover';" onmouseout="this.className='mout';"><a class="main_menu" href="blog_new.php">My Blog</a></td>
+	<td class="main_menu_special"><a class="main_menu" href="contact.html">Contact</a></td>
+	<td class="main_menu" onmouseover="this.className='mover';" onmouseout="this.className='mout';"><a class="main_menu" href="comments.php">Comments</a></td>
+	<td class="main_menu" onmouseover="this.className='mover';" onmouseout="this.className='mout';"><a class="main_menu" href="login.php">Admin</a></td>
+</tr>
+</table>
+</div>
+<br /><br /><br /><br /><br /><br />
+
+
+
+
+
+<table style="margin-left: 100px;">
+<tr>
+<td valign="top">
+
+
+
+
+<table id="content"  width="500">
+<tr>
+	<td>
+	<h2>Connect with Varun B Patil</h2>
+	<hr /><br /><br /><br /><br /> 
+	</td>
+</tr>
+</table>
+<table id="content"  width="500">
+<tr>
+	<td>
+	<a href="http://www.facebook.com/varunbpatil" target="_blank"><img src="facebook.png" 
+	alt="varun's facebook page" /></a>
+	</td>
+	
+	<td>
+	<a href="http://twitter.com/#!/varunbpatil" target="_blank"><img src="twitter.png" 
+	alt="varun's twitter page" /></a>
+	</td>
+	
+	<td>
+	<a rel="author" href="https://plus.google.com/112161568047512619329/posts" target="_blank">
+	<img src="http://www.google.com/images/icons/ui/gprofile_button-64.png" height="60px" /></a>
+	</td>
+</tr>
+</table>
+<br /><br /><br /><br /><br /><br /> <br />
+<table id="content"  width="500">
+<tr>
+	<td>
+	<h2>Personal Contact Details</h2>
+	<hr /><br /><br />
+	</td>
+</tr>
+<tr>
+	<td>Phone:&nbsp;&nbsp;&nbsp; +919036199676<br /><br />Email:&nbsp;&nbsp;&nbsp; varunbpatil@yahoo.in</td>
+</tr>
+</table>
+
+<br /><br /><br /><br /><br /><br />
+
+
+
+</td>
+
+<td>
+<form method="post" action="email.php">
+<table id="content"  width="400" style="padding-left: 130px;">
+<tr>
+	<td>
+	<h2>E-mail Varun B Patil</h2> 
+	<hr /><br /><br /><br />
+	</td>
+</tr>
+<tr>
+	<td>
+	Name:
+	</td>
+</tr>
+<tr>
+	<td>
+	<textarea rows="2" cols="40" name="name"></textarea><br /><br /><br />
+	</td>
+</tr>
+<tr>
+	<td>
+	Subject:
+	</td>
+</tr>
+<tr>
+	<td>
+	<textarea rows="3" cols="40" name="subject"></textarea><br /><br /><br />
+	</td>
+</tr>
+<tr>
+	<td>
+	Message:
+	</td>
+</tr>
+<tr>
+	<td>
+	<textarea rows="8" cols="40" name="message"></textarea><br /><br />
+	</td>
+</tr>
+<tr>
+	<td>
+	<input type="submit" value="Send" /><br /><p style="font-size: 0.6em;">*You need to have an email client like Thunderbird configured</p>
+	</td>
+</tr>
+</table>
+</form>
+<br /><br /><br /><br /><br /><br />
+</td>
+</tr>
+</table>
+
+<div id="fblike">
+
+<img class="like_me" src="navigation-up-button_blue.png" width="56px" style="margin-left: -10px; margin-bottom: -12px;" /><br />
+<div class="pop_out">
+<!-- Place this tag where you want the +1 button to render -->
+<g:plusone size="tall" callback="http://varunpatil.xtreemhost.com/"></g:plusone>
+
+<!-- Place this tag after the last plusone tag -->
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script><br /><br />
+<div id="fb-root"></div><script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script><fb:like href="http://varunpatil.xtreemhost.com" send="false" layout="box_count" width="50" show_faces="false" font="trebuchet ms"></fb:like>
+</div>
+</div>
+
+<table id="footer">
+<tr>
+	<td><br /><br /><br /><br /><hr style="margin-left:140px; margin-right:140px;" />
+	</td>
+<tr/>
+<tr>
+	<td class="footer_content">website designed by:&nbsp;&nbsp; Varun B Patil</td>
+</tr>
+<tr>
+	<td class="footer_content">powered by:&nbsp;&nbsp; HTML5&nbsp;	CSS3&nbsp;	
+	Javascript&nbsp;	PHP&nbsp;	jQuery<br /><br /><br /></td>
+</tr>
+</table>
+
+
+
+
+
+</body>
+</html>

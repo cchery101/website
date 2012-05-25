@@ -1,0 +1,28 @@
+#fblike{
+transition: all 1s;
+-moz-transition: all 1s; /* Firefox 4 */
+-webkit-transition: all 1s; /* Safari and Chrome */
+-o-transition: all 1s; /* Opera */
+
+-webkit-transform: translate(0px,175px);
+transform: translate(0px,175px);
+-moz-transform: translate(0px,175px);
+-o-transform: translate(0px,175px);
+
+padding-left: 10px;
+position: fixed;
+left: 0;
+bottom: 10px;
+}
+
+
+#fblike:hover{
+-webkit-transform: translate(0px,0px);
+transform: translate(0px,0px);
+-moz-transform: translate(0px,0px);
+-o-transform: translate(0px,0px);
+padding-left: 10px;
+position: fixed;
+left: 0;
+bottom: 10px;
+}

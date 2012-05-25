@@ -1,0 +1,125 @@
+
+body{
+top: 0;
+left: 0;
+}
+
+#left{
+z-index: -1;
+background-image: url(lgrey064.jpg);
+margin-right: 40px;
+width: 400px;
+height: 100%;
+display: inline;
+position: fixed;
+left: 0px;
+top: 0px;
+}
+
+
+.image{
+background-color: white;
+margin-left: 70px;
+margin-right: 70px;
+border: 1 px solid #BDBDBD;
+}
+
+.image1{
+margin: 20px;
+}
+
+.image2{
+width: 215px;
+height: 280px;
+}
+
+
+#like{
+position: fixed;
+bottom: 15px;
+margin-left: 70px;
+margin-right: 70px;
+}
+
+#like1{
+margin: 12px;
+display: inline;
+width: 40px;
+height: 40px;
+}
+
+
+h1.heading{
+font-family: trebuchet ms;
+}
+
+
+p.num_mail{
+font-family: comic sans ms;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#right{
+margin-left: 378px;
+z-index: 1;
+display: inline;
+float: left;
+}
+
+/*
+#pf_header{
+border-radius: 15px;
+width: 360px;
+height: 40px;
+background-color: blue;
+}
+
+#pf_header p{
+font-family: trebuchet ms;
+font-size: 1.4em;
+padding-top: 6px;
+padding-left: 60px;
+}*/
+
+
+p.header{
+font-family: comic sans ms;
+font-size: 1.5em;
+-webkit-transform: translate(60px,-70px);
+-moz-transform: translate(60px,-70px);
+-o-transform: translate(60px,-70px);
+transform: translate(60px,-70px);
+}
+
+
+p.pf_content
+{
+font-family: trebuchet ms;
+margin-left: 100px;
+margin-right: 100px;
+padding-left: 10px;
+padding-right: 10px;
+text-align: justify;
+text-indent: 40px;
+line-height: 1.5;
+}

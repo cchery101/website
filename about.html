@@ -1,0 +1,152 @@
+<html>
+<head>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+  $(".like_me").click(function(){
+  
+  $(".pop_out").slideToggle(1000);
+  /*$(this).css({"-webkit-transform":"rotate(180deg)"});*/
+  
+  });
+});
+</script>
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<title>About Me | Varun B Patil</title>
+
+<style type="text/css">@import url(index.css);</style>
+<script type="text/javascript">
+	var imgs = new Array("DSC00374.JPG","DSC00385.JPG","DSC00425.JPG");
+	
+	// alternate text in case img doesnt load
+	var alt = new Array("photos of me","photos of me","photos of me");
+	var currentImg = 0;
+	var imgCnt = 3;
+	
+	function cycleImg() 
+	{
+  		
+		if (currentImg == imgCnt) 	// loop back to starting image
+		{
+    			currentImg = 0;
+		}
+	
+	var banner = document.getElementById('imgBanner');
+	banner.src=imgs[currentImg]
+	banner.alt=alt[currentImg]
+	currentImg++;
+	}
+  	window.setInterval("cycleImg()",3500);	// change every 3500 milliseconds(3.5 seconds)
+	</script>
+
+</head>
+
+<body onload="cycleImg();">
+
+
+<!--header-->
+
+<div id="header">
+<a href="index.php"><img class="header_content_img" src="logo.png" width="50px" /></a>
+<h1 class="header_content"><a class="header_content" href="index.php">Varun B Patil</a></h1>
+<i class="header_content">Tough times don't last, but tough people do.</i>
+
+
+<br /><br /><br /><br /><br /><br /><br />
+
+
+<table id="main_menu">
+<tr>
+	<td class="main_menu" onmouseover="this.className='mover';" onmouseout="this.className='mout';"><a class="main_menu" href="index.php">Home</a></td>
+	<td class="main_menu_special" onmouseover="this.className='mover';" onmouseout="this.className='mout';"><a class="main_menu" href="portfolio.html">Portfolio</a></td>
+	<td class="main_menu" onmouseover="this.className='mover';" onmouseout="this.className='mout';"><a class="main_menu" href="learn.html">Learn</a></td>
+	<td class="main_menu" onmouseover="this.className='mover';" onmouseout="this.className='mout';"><a class="main_menu" href="links.php">Fav Sites</a></td>
+	<td class="main_menu" onmouseover="this.className='mover';" onmouseout="this.className='mout';"><a class="main_menu" href="blog_new.php">My Blog</a></td>
+	<td class="main_menu" onmouseover="this.className='mover';" onmouseout="this.className='mout';"><a class="main_menu" href="contact.html">Contact</a></td>
+	<td class="main_menu" onmouseover="this.className='mover';" onmouseout="this.className='mout';"><a class="main_menu" href="comments.php">Comments</a></td>
+	<td class="main_menu" onmouseover="this.className='mover';" onmouseout="this.className='mout';"><a class="main_menu" href="login.php">Admin</a></td>
+</tr>
+</table>
+</div>
+<br /><br /><br /><br /><br /><br />
+
+
+
+
+<table width="100%">
+<tr>
+
+<td width="50%" style="padding-left: 60px;">
+<img src="DSC00343.JPG" id="imgBanner" width="90%" height="13%"/>
+</td>
+
+
+<td width="50%" valign="top">
+<table id="content_whoami"  width="540">
+<tr>
+	<td>
+	<h2>Varun B Patil's  Who Am I ?</h2> 
+	<hr />
+	</td>
+</tr>
+<tr>
+	<td>
+	<p style="font-family: comic sans ms; font-size: 1.1em; line-height: 2;">Hi....&nbsp;I am <strong>Varun B Patil</strong>.<br /><br />
+	I am currently studying 7th semester(final year), B.Tech(Computer Science and Engineering) at Sri
+	Jayachamarajendra College of Engineering, Mysore, Karnataka. I completed my Pre-University 		   		education from Sadvidya Pre-University College, Mysore. My primary & elementary education was at 		J.S.S Public School(CBSE), J.P Nagar, Mysore where I joined kindergarten after leaving Muscat, Oman... my 		birth place.</p>
+	</td>
+</tr>
+</table>
+</td>
+
+</tr>
+</table>
+
+
+
+
+
+
+
+
+
+<br /><br /><br /><br /><br /><br /><br /><br />
+
+<div id="fblike">
+
+<img class="like_me" src="navigation-up-button_blue.png" width="56px" /><br />
+<div class="pop_out">
+<!-- Place this tag where you want the +1 button to render -->
+<g:plusone size="tall" callback="http://varunpatil.xtreemhost.com/"></g:plusone>
+
+<!-- Place this tag after the last plusone tag -->
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script><br /><br />
+<div id="fb-root"></div><script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script><fb:like href="http://varunpatil.xtreemhost.com" send="false" layout="box_count" width="50" show_faces="false" font="trebuchet ms"></fb:like>
+</div>
+</div>
+
+<table id="footer">
+<tr>
+	<td><br /><br /><br /><br /><hr style="margin-left:140px; margin-right:140px;" />
+	</td>
+<tr/>
+<tr>
+	<td class="footer_content">website designed by:&nbsp;&nbsp; Varun B Patil</td>
+</tr>
+<tr>
+	<td class="footer_content">powered by:&nbsp;&nbsp; HTML5&nbsp;	CSS3&nbsp;	
+	Javascript&nbsp;	PHP&nbsp;	jQuery<br /><br /><br /></td>
+</tr>
+</table>
+
+
+
+
+</body>
+</html>
