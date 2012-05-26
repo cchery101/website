@@ -81,6 +81,7 @@ $a = $row[0];
 $heading = $row[1];
 $link = $row[2];
 $content = $row[3];
+$date = $row[4];
 
 
 echo "<a class=\"links\" href=\"";
@@ -99,6 +100,9 @@ printf ("%s", $row1[1]);
 }
 echo "&nbsp;&nbsp;";
 echo "</p>";
+echo "<br/>";
+echo "<font size=2 color=\"red\">&nbsp;$date</font>";
+echo "<br\>";
 echo "<p class=\"links\" style=\"text-align: justify; font-size: 1.1em;\">";
 echo "$content";
 echo "</p>";

@@ -1,5 +1,6 @@
 <?php
-   
+
+$date = $_POST['date'];   
 $heading = $_POST['heading'];
 $content = $_POST['content'];
 $link = $_POST['link'];
@@ -21,7 +22,7 @@ mysqli_query($dblink, $query1);
 }
    
 
-$query1 = "INSERT INTO blog VALUES(0,'$heading','$link','$content')";
+$query1 = "INSERT INTO blog VALUES(0,'$heading','$link','$content', '$date')";
 $result1 = mysqli_query($dblink, $query1) or die(mysqli_error($dblink));
 mysqli_close($dblink);
 

@@ -52,6 +52,8 @@ $(document).ready(function(){
 <form method="post" action="post_gen.php">
 <br /><br /><br /><br /><br />
 <center>
+<p class="admin">Date:<br /></p>
+<textarea rows="1" cols="70" name="date"></textarea><br /><br /><br /><br /><br />
 <p class="admin">Heading:<br /></p>
 <textarea rows="2" cols="70" name="heading"></textarea><br /><br /><br /><br /><br />
 <p class="admin">Link:<br /></p>
